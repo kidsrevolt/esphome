@@ -3,8 +3,9 @@
   "wake_word": "hey_cheep",
   "author": "Luigi Ermini",
   "website": "https://www.kidsrevolt.com/",
-  "model": "./hey_cheepp.tflite",
+  "model": "hey_cheepp.tflite",
   "version": 1,
+  "trained_languages": ["it"],
   "micro": {
     "probability_cutoff": 0.97,
     "sliding_window_size": 5,
